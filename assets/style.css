@@ -1,57 +1,112 @@
-* {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: scroll;
-    background-color: rgb(204, 204, 250);
-    margin: 15px;
-    float: inline-start;
-    
-}
-
-body {
-    padding: 15px;
-}
-
-header {
-    display: inline;
-    background-color: darksalmon;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
-.h1 {
-    color: brown;
-    
-}
 
-.nav {
-    text-align: right;
+/*HEADER STYLES START*/
 
-}
-.container {
-    width: 900px;
-    margin: 0 auto 30px auto;
-    overflow: auto;
-
-    
-}
-#about-me #work #resume #contact h2 {
-    font-size: 34px;
-    float: left;
-    position: absolute;
-
-}
-#about-me #work #contact #resume img {
-    width: 40%;
-    float:left;
-    position: inherit;
-    margin-top: 150px;
-}
-
-#about-me #work #contact #resume  p {
-    font-size: 24px;
-    float: right;
-    width: 50%;
+header{
+   
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: auto;    
+    background-size:100%;
+    background-attachment: fixed;
     
+}   
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: darkorange;
+    margin: 0;
+    display: inline;
+    padding: 25px 25px;
+}
+
+header a {
+    text-decoration: solid;
+    color: darkorange;
+}
+
+header nav {
+    float: right;
+    margin: 10px 0;
+}
+
+header nav ul li{
+    display: inline-block;
+
+}
+
+header nav li a {
+    margin: 0 20px;
+    font-weight: lighter;
+    font-size: 25px;
+
+
+}
+/*Header Styles END*/
+
+
+
+
+/*FOOTER STYLES START*/
+
+footer {
+    /*background-image: url(./bunnies.jpg);*/
+    background: blue;
+    width: auto;
+    padding: 25px 25px;
+    ;
+
+}
+footer h2 {
+    display: inline;
+    color: darkorange;
+    font-size: 28px;
+    margin: 0;
+}
+
+/*footer div {
+
+
+}*/
+
+/*Footer styles END*/
+
+.hero{
+    background-image: url(./lake.jpg);
+    height: 500px;
+    background-size:cover;
+    background-position: center;
+}
+#visual{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    display: block;
+    position: relative;
+}
+#visual h2{
+    position: relative;
+    left: 300px;
+}
+#visual p{
+    position: relative;
+    left: 150px;
+
+}
+section{
+    padding: 60px;
+    
+   
+    
+
 }
 
 
