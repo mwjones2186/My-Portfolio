@@ -87,29 +87,43 @@ footer h2 {
     background-position: center;
 }
 #visual{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    display: block;
-    position: relative;
-}
-#visual h2{
-    position: relative;
-    left: 300px;
-}
-#visual p{
-    position: relative;
-    left: 150px;
-
+   text-align: center;
+   margin: 0 auto 25px auto;
+   font-family: monospace;
+   font-size: 50px;
+   color: floralwhite;
 }
 section{
     padding: 60px;
     
-   
+}
+
+.information{
+    text-align: center;
+    margin: 0 auto 25px auto;
+    background: blue;
+    padding: 25px 25px;
     
 
 }
+.information img{
+    width: 300px;
+    height: 300px;
+    float: center;
+    padding: 25px 25px;
 
+}
+.information-about-me {
+    padding: 25px;
+    float: right;
+    width: 70%
+}
 
-
-
-
+#about-me, #work, #contact, #resume{
+    color: floralwhite;
+    font-size: 32px;
+    padding: 10px 10px;
+}
+#about-me p, #work p, #contact p, #resume p{
+    font-size: 24px;
+}
