@@ -8,35 +8,35 @@
 /*HEADER STYLES START*/
 
 header{
-   
-    background-color: blue;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
-    top: auto;    
-    background-size:100%;
-    background-attachment: fixed;
-    
-}   
+    position: fixed;   
+    justify-content: space-between;
+    width: 100%;
+}
+header a:hover{
+    color:  darkblue;
+   -webkit-transform: scale3d(2);
 
+}
 header h1 {
     font-weight: bold;
     font-size: 40px;
-    color: darkorange;
+    color: rgb(168, 55, 55);
     margin: 0;
-    display: inline;
-    padding: 25px 25px;
+        
 }
 
 header a {
     text-decoration: solid;
-    color: darkorange;
+    color: rgb(168, 55, 55);
+    left: 200px;
 }
 
+
 header nav {
-    float: right;
     margin: 10px 0;
+    
 }
 
 header nav ul li{
@@ -48,9 +48,8 @@ header nav li a {
     margin: 0 20px;
     font-weight: lighter;
     font-size: 25px;
-
-
 }
+
 /*Header Styles END*/
 
 
@@ -68,7 +67,7 @@ footer {
 }
 footer h2 {
     display: inline;
-    color: darkorange;
+    color: rgb(168, 55, 55);
     font-size: 28px;
     margin: 0;
 }
@@ -81,7 +80,7 @@ footer h2 {
 /*Footer styles END*/
 
 .hero{
-    background-image: url(./lake.jpg);
+    background-image: url(./coast.jpg);
     height: 500px;
     background-size:cover;
     background-position: center;
@@ -91,7 +90,7 @@ footer h2 {
    margin: 0 auto 25px auto;
    font-family: monospace;
    font-size: 50px;
-   color: floralwhite;
+   color: rgb(168, 55, 55);
 }
 section{
     padding: 60px;
