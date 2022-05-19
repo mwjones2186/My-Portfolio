@@ -103,12 +103,12 @@ section{
     margin: 0 auto 25px auto;
     background: blue;
     padding: 25px 25px;
-    
+
 
 }
 .information img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     float: center;
     padding: 25px 25px;
 
@@ -126,4 +126,20 @@ section{
 }
 #about-me p, #work p, #contact p, #resume p{
     font-size: 24px;
+}
+.projects{
+    display: inline-table;
+}
+.projects img{
+    width: 300px;
+    cursor: pointer;
+    padding: 10px;
+}
+img:hover{
+    border-color: orange;
+    outline: 0;
+    padding: 20px 20 px;
+    box-shadow: inset 40px 50px 40px 50px white;
+    -webkit-transform:scale(1.2);
+  
 }
